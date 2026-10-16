@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="VELTOR luxury leather footwear. Timeless design, exceptional craftsmanship. Step Into Greatness.">
+  <title>VELTOR® — Step Into Greatness.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">CRAFTED WITH INTENTION <span>•</span> DESIGNED TO GO FURTHER</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="VELTOR home">
+      <img src="assets/veltor-logo.png" alt="VELTOR — Step Into Greatness" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+      <span class="brand-fallback">V<span>ELTOR</span><small>STEP INTO GREATNESS.</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav">
+      <a class="active" href="#top">Home</a>
+      <div class="nav-dropdown">
+        <a href="#collections">Shop <span class="chevron">⌄</span></a>
+        <div class="dropdown-panel">
+          <a href="#formal">Formal leather shoes</a><a href="#smart-casual">Smart-casual shoes</a>
+          <a href="#boots">Leather boots</a><a href="#palms">Men's leather palms</a>
+        </div>
+      </div>
+      <a href="#craftsmanship">Our Craft</a>
+      <a href="#custom-build">Custom Build</a>
+      <a href="#featured">Collection</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchToggle" aria-label="Search products">⌕</button>
+      <a class="icon-button account-link" href="#custom-build" aria-label="Custom order">♙</a>
+      <button class="bag-button" id="bagButton" aria-label="Open shopping bag">BAG <span id="bagCount">0</span></button>
+    </div>
+  </header>
+
+  <div class="search-panel" id="searchPanel" hidden>
+    <label for="productSearch">Find your next favourite</label>
+    <input id="productSearch" type="search" placeholder="Search Oxford, loafers, boots…">
+    <button id="closeSearch" aria-label="Close search">×</button>
+  </div>
+
+  <main>
+    <section class="hero" aria-label="VELTOR luxury footwear">
+      <video class="hero-video" autoplay muted loop playsinline poster="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" id="heroVideo">
+        <source src="https://videos.pexels.com/video-files/5321384/5321384-uhd_3840_2160_25fps.mp4" type="video/mp4">
+      </video>
+      <div class="hero-fallback"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> VELTOR SIGNATURE COLLECTION</p>
+        <h1>Step into<br><em>greatness.</em></h1>
+        <p class="hero-copy">Exceptional leather. Considered design.<br>Every step, a statement of your own.</p>
+        <div class="hero-buttons">
+          <a class="button button-gold" href="#collections">Explore the collection <span>↗</span></a>
+          <a class="text-link" href="#craftsmanship"><span class="play-mark">▶</span> Discover our craft</a>
+        </div>
+      </div>
+      <div class="hero-side-note"><span>01 / 04</span><i></i> MADE TO MOVE YOU</div>
+      <div class="hero-bottom">
+        <span class="video-status"><span class="status-dot"></span> THE VELTOR EXPERIENCE</span>
+        <span class="hero-scroll">SCROLL TO EXPLORE <b>↓</b></span>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="craftsmanship">
+      <p class="eyebrow dark-eyebrow">MORE THAN FOOTWEAR</p>
+      <h2>Greatness is in<br><em>the details.</em></h2>
+      <p class="intro-copy">From the first sketch to the final polish, VELTOR brings together timeless silhouettes, refined materials and a commitment to the way you move through the world.</p>
+      <a href="#custom-build" class="underlined-link">Discover bespoke craftsmanship <span>↗</span></a>
+      <div class="intro-stamp">V<br><small>EST. IN<br>EXCELLENCE</small></div>
+    </section>
+
+    <section class="collections section-pad" id="collections">
+      <div class="section-heading">
+        <div><p class="eyebrow dark-eyebrow">FIND YOUR SIGNATURE</p><h2>Shop by <em>category.</em></h2></div>
+        <p>Distinctive styles for every occasion.<br>One unmistakable standard.</p>
+      </div>
+      <div class="category-grid">
+        <article class="category-card category-tall" id="formal">
+          <a href="#featured" class="category-image">
+            <img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1614252369475-531848e7d9f4?auto=format&fit=crop&w=1000&q=85" alt="Polished formal leather Oxford shoes">
+            <span class="image-number">01</span><span class="image-arrow">↗</span>
+          </a>
+          <div class="category-info"><div><p class="category-kicker">TIMELESS ELEGANCE</p><h3>Formal leather shoes</h3></div><span class="category-count">05 STYLES</span></div>
+          <p class="category-desc">A refined finish for the moments that matter.</p>
+          <div class="subcategory-list"><a href="#featured">Oxford shoes</a><a href="#featured">Derby shoes</a><a href="#featured">Monk-strap shoes</a><a href="#featured">Wholecut shoes</a><a href="#featured">Patent leather shoes</a></div>
+          <a class="card-link" href="#featured">Explore formal <span>→</span></a>
+        </article>
+        <article class="category-card" id="smart-casual">
+          <a href="#featured" class="category-image">
+            <img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1531310197839-ccf54634509e?auto=format&fit=crop&w=1000&q=85" alt="Brown leather loafers for smart casual style">
+            <span class="image-number">02</span><span class="image-arrow">↗</span>
+          </a>
+          <div class="category-info"><div><p class="category-kicker">EFFORTLESS CONFIDENCE</p><h3>Smart-casual shoes</h3></div><span class="category-count">05 STYLES</span></div>
+          <p class="category-desc">Relaxed sophistication, beautifully finished.</p>
+          <div class="subcategory-list"><a href="#featured">Penny loafers</a><a href="#featured">Tassel loafers</a><a href="#featured">Horsebit loafers</a><a href="#featured">Brogue shoes</a><a href="#featured">Chukka shoes</a></div>
+          <a class="card-link" href="#featured">Explore smart-casual <span>→</span></a>
+        </article>
+        <article class="category-card" id="boots">
+          <a href="#featured" class="category-image">
+            <img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=1000&q=85" alt="Premium leather Chelsea boots">
+            <span class="image-number">03</span><span class="image-arrow">↗</span>
+          </a>
+          <div class="category-info"><div><p class="category-kicker">BUILT TO GO FURTHER</p><h3>Leather boots</h3></div><span class="category-count">02 STYLES</span></div>
+          <p class="category-desc">Strong silhouettes. Enduring character.</p>
+          <div class="subcategory-list"><a href="#featured">Chelsea boots</a><a href="#featured">Dress boots</a></div>
+          <a class="card-link" href="#featured">Explore boots <span>→</span></a>
+        </article>
+      </div>
+
+      <div class="lower-category-grid">
+        <article class="palms-card" id="palms">
+          <a href="#featured" class="palms-image"><img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=1000&q=85" alt="Brown leather men's sandals"></a>
+          <div class="palms-copy">
+            <p class="category-kicker">COMFORT, REDEFINED</p><h3>Men's leather palms</h3>
+            <p>Warm-weather ease with VELTOR refinement.</p>
+            <div class="subcategory-list two-col"><a href="#featured">Leather slides</a><a href="#featured">Buckle sandals</a><a href="#featured">Traditional leather palms</a><a href="#featured">Gladiator sandals</a><a href="#featured">Toe-loop sandals</a><a href="#featured">Fisherman sandals</a><a href="#featured">Cross-strap sandals</a><a href="#featured">Leather mules</a></div>
+            <a class="card-link" href="#featured">Explore men's palms <span>→</span></a>
+          </div>
+        </article>
+        <article class="custom-card" id="custom-build">
+          <img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=1500&q=85" alt="Leather footwear craftsmanship in a shoemaker's workshop">
+          <div class="custom-overlay"></div>
+          <div class="custom-content"><p class="eyebrow">MADE PERSONAL</p><h2>Your vision.<br><em>Our craft.</em></h2><p>Build a shoe that feels unmistakably yours. Choose your style, leather, colour and finishing details.</p><a class="button button-gold" href="#custom-form">Create your custom shoe <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="featured section-pad" id="featured">
+      <div class="section-heading light-heading">
+        <div><p class="eyebrow">THE EDIT</p><h2>Signature <em>collection.</em></h2></div>
+        <p>Considered essentials.<br>Made to stay in style.</p>
+      </div>
+      <div class="filter-row">
+        <div class="filter-buttons" id="filterButtons">
+          <button class="filter-button selected" data-filter="all">All styles</button>
+          <button class="filter-button" data-filter="formal">Formal</button>
+          <button class="filter-button" data-filter="smart">Smart-casual</button>
+          <button class="filter-button" data-filter="boots">Boots</button>
+          <button class="filter-button" data-filter="palms">Palms</button>
+        </div>
+        <span class="results-count" id="resultsCount">06 PIECES</span>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="formal" data-name="The Regent Oxford">
+          <div class="product-photo"><img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1614252369475-531848e7d9f4?auto=format&fit=crop&w=800&q=85" alt="The Regent black Oxford shoe"><span class="product-tag">BESTSELLER</span><button class="quick-add" data-product="The Regent Oxford" aria-label="Add The Regent Oxford to bag">+</button></div>
+          <div class="product-meta"><div><h3>The Regent Oxford</h3><p>Black calf leather · Formal</p></div><span class="price">₦85,000</span></div>
+          <button class="product-add" data-product="The Regent Oxford">Add to bag <span>↗</span></button>
+        </article>
+        <article class="product-card" data-category="smart" data-name="The Marlow Penny Loafer">
+          <div class="product-photo"><img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1531310197839-ccf54634509e?auto=format&fit=crop&w=800&q=85" alt="The Marlow brown penny loafer"><span class="product-tag">SIGNATURE</span><button class="quick-add" data-product="The Marlow Penny Loafer" aria-label="Add The Marlow Penny Loafer to bag">+</button></div>
+          <div class="product-meta"><div><h3>The Marlow Loafer</h3><p>Chestnut leather · Smart-casual</p></div><span class="price">₦78,000</span></div>
+          <button class="product-add" data-product="The Marlow Penny Loafer">Add to bag <span>↗</span></button>
+        </article>
+        <article class="product-card" data-category="boots" data-name="The Atlas Chelsea Boot">
+          <div class="product-photo"><img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=800&q=85" alt="The Atlas leather Chelsea boot"><button class="quick-add" data-product="The Atlas Chelsea Boot" aria-label="Add The Atlas Chelsea Boot to bag">+</button></div>
+          <div class="product-meta"><div><h3>The Atlas Chelsea</h3><p>Espresso leather · Boots</p></div><span class="price">₦105,000</span></div>
+          <button class="product-add" data-product="The Atlas Chelsea Boot">Add to bag <span>↗</span></button>
+        </article>
+        <article class="product-card" data-category="formal" data-name="The Sovereign Monk Strap">
+          <div class="product-photo"><img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1614252369475-531848e7d9f4?auto=format&fit=crop&w=800&q=85" alt="Black leather monk strap dress shoe"><button class="quick-add" data-product="The Sovereign Monk Strap" aria-label="Add The Sovereign Monk Strap to bag">+</button></div>
+          <div class="product-meta"><div><h3>The Sovereign Monk</h3><p>Black leather · Formal</p></div><span class="price">₦92,000</span></div>
+          <button class="product-add" data-product="The Sovereign Monk Strap">Add to bag <span>↗</span></button>
+        </article>
+        <article class="product-card" data-category="palms" data-name="The Coast Leather Slide">
+          <div class="product-photo"><img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=800&q=85" alt="The Coast brown leather slide sandal"><button class="quick-add" data-product="The Coast Leather Slide" aria-label="Add The Coast Leather Slide to bag">+</button></div>
+          <div class="product-meta"><div><h3>The Coast Leather Slide</h3><p>Tan leather · Men's palms</p></div><span class="price">₦42,000</span></div>
+          <button class="product-add" data-product="The Coast Leather Slide">Add to bag <span>↗</span></button>
+        </article>
+        <article class="product-card" data-category="smart" data-name="The Archer Brogue">
+          <div class="product-photo"><img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=85" alt="Leather brogue shoe detail"><button class="quick-add" data-product="The Archer Brogue" aria-label="Add The Archer Brogue to bag">+</button></div>
+          <div class="product-meta"><div><h3>The Archer Brogue</h3><p>Burnished brown · Smart-casual</p></div><span class="price">₦88,000</span></div>
+          <button class="product-add" data-product="The Archer Brogue">Add to bag <span>↗</span></button>
+        </article>
+      </div>
+      <p class="demo-note">Sample catalogue for design demonstration. Replace product names, prices and photography with your confirmed VELTOR inventory before launch.</p>
+    </section>
+
+    <section class="craft-strip">
+      <div class="craft-image"><img loading="lazy" data-media-fallback="https://images.pexels.com/photos/296159/pexels-photo-296159.jpeg?auto=compress&cs=tinysrgb&w=1600" src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=1200&q=85" alt="Shoemaker at work"></div>
+      <div class="craft-text"><p class="eyebrow dark-eyebrow">THE VELTOR STANDARD</p><h2>Crafted for the<br><em>way you lead.</em></h2><p>Great footwear should feel considered from every angle: the line of the silhouette, the character of the leather and the confidence of the fit.</p><a href="#custom-build" class="underlined-link">Start your custom build <span>↗</span></a></div>
+    </section>
+
+    <section class="custom-form-section section-pad" id="custom-form">
+      <div class="custom-form-intro"><p class="eyebrow dark-eyebrow">YOUR DESIGN, YOUR WAY</p><h2>Let's build<br><em>your VELTOR.</em></h2><p>Tell us what you have in mind. This form opens an email draft addressed to your business, so replace the demo email in the code with your real contact address before publishing.</p><div class="form-steps"><span>01 <small>Choose your style</small></span><span>02 <small>Define the details</small></span><span>03 <small>Discuss your fit</small></span></div></div>
+      <form class="custom-form" id="customOrderForm">
+        <div class="form-title"><span>CUSTOM BUILD ENQUIRY</span><span>01 — 03</span></div>
+        <div class="form-grid">
+          <label>Full name<input name="name" required placeholder="Your name"></label>
+          <label>Email address<input name="email" type="email" required placeholder="you@example.com"></label>
+          <label>Footwear category<select name="category" required><option value="">Select a category</option><option>Formal leather shoes</option><option>Smart-casual shoes</option><option>Leather boots</option><option>Men's leather palms</option></select></label>
+          <label>Preferred style<input name="style" required placeholder="e.g. Double monk-strap"></label>
+          <label>Leather colour<select name="colour"><option>Black</option><option>Dark brown</option><option>Chestnut</option><option>Tan</option><option>Burgundy</option><option>Other / discuss</option></select></label>
+          <label>Shoe size<input name="size" placeholder="e.g. UK 43"></label>
+          <label class="full-field">Design notes<textarea name="notes" rows="4" placeholder="Leather finish, sole, buckle, stitching, occasion and any details you imagine…"></textarea></label>
+        </div>
+        <button class="button button-dark" type="submit">Send custom enquiry <span>↗</span></button>
+        <p class="form-disclaimer">No payment is taken here. Final pricing and availability will be confirmed with you directly.</p>
+      </form>
+    </section>
+
+    <section class="promise-bar">
+      <div><span class="promise-icon">✳</span><p><b>Considered quality</b><small>Made with care and intention</small></p></div>
+      <div><span class="promise-icon">◇</span><p><b>Personal fit</b><small>Custom options available</small></p></div>
+      <div><span class="promise-icon">↗</span><p><b>Made to last</b><small>Timeless over temporary</small></p></div>
+      <div><span class="promise-icon">♡</span><p><b>Personal service</b><small>Here to help you choose</small></p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="brand footer-logo" href="#top"><img src="assets/veltor-logo.png" alt="VELTOR"></a><p>For those who move with purpose.<br>For every step towards greatness.</p><div class="social-links"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="TikTok">TK</a></div></div>
+      <div class="footer-column"><h4>EXPLORE</h4><a href="#top">Home</a><a href="#collections">Shop all</a><a href="#craftsmanship">Our craft</a><a href="#custom-build">Custom build</a></div>
+      <div class="footer-column"><h4>COLLECTIONS</h4><a href="#formal">Formal shoes</a><a href="#smart-casual">Smart-casual</a><a href="#boots">Leather boots</a><a href="#palms">Men's palms</a></div>
+      <div class="footer-newsletter"><h4>THE VELTOR LETTER</h4><p>New releases, considered style and notes from the workshop.</p><form id="newsletterForm"><input type="email" name="newsletterEmail" placeholder="Your email address" required aria-label="Your email address"><button aria-label="Subscribe" type="submit">→</button></form><small id="newsletterMessage">By subscribing, you agree to receive occasional updates.</small></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> VELTOR®. STEP INTO GREATNESS.</span><span>Designed with intention.</span><a href="#top">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog class="bag-dialog" id="bagDialog"><div class="dialog-head"><div><p class="eyebrow dark-eyebrow">YOUR SELECTION</p><h2>Shopping bag</h2></div><button id="closeBag" aria-label="Close shopping bag">×</button></div><div id="bagItems" class="bag-items"><p class="empty-bag">Your bag is waiting for something exceptional.</p></div><div class="bag-bottom"><p><span>Items</span><b id="bagTotal">0</b></p><button id="bagEnquiry" class="button button-dark">Enquire about selected items ↗</button><small>Demo bag only. Online payment is not connected.</small></div></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
